@@ -1,8 +1,6 @@
-import { Layout, Card, Statistic, List, Typography, Spin, Tag, Flex  } from 'antd';
+import { Layout, Card, Statistic, List, Typography, Tag  } from 'antd';
 import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
-import { useEffect, useState } from 'react';
-import { fakeFetchCrypto, fetchAssets } from '../../api';
-import { percentDifference, capitalize } from '../../utils';
+import { capitalize } from '../../utils';
 import CryptoContext from '../../context/crypto-context';
 import { useContext } from 'react';
 

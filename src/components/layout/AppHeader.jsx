@@ -6,7 +6,7 @@ const headerStyle = {
     height: 60,
     padding: '1rem',
     display: 'flex',
-    justyfyContent: 'space-between',
+    justifyContent: 'space-between',
     alignItems: 'center',
 };
 
